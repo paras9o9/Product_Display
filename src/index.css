@@ -1,0 +1,11 @@
+.destination-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .destination-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }

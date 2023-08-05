@@ -1,0 +1,67 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "title": "Amsterdam",
+      "category": "somewhere far",
+      "price": 326.71,
+      "img": "https://picsum.photos/id/57/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 2,
+      "title": "Athens",
+      "category": "somewhere far",
+      "price": 435.59,
+      "img": "https://picsum.photos/id/54/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 3,
+      "title": "Nice",
+      "category": "somewhere far",
+      "price": 472.18,
+      "img": "https://picsum.photos/id/37/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 4,
+      "title": "San francisco",
+      "category": "somewhere far",
+      "price": 847.16,
+      "img": "https://picsum.photos/id/43/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 5,
+      "title": "Jammu and Kashmir",
+      "category": "somewhere near",
+      "price": 120.95,
+      "img": "https://picsum.photos/id/47/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 6,
+      "title": "Guwahati",
+      "category": "somewhere near",
+      "price": 133.01,
+      "img": "https://picsum.photos/id/28/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    },
+    {
+      "id": 7,
+      "title": "Kelash Parvat",
+      "category": "somewhere center",
+      "price": 96.71,
+      "img": "https://picsum.photos/id/29/100",
+      "desc":
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ratione!"
+    }
+  ]
+}
