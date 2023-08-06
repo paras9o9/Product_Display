@@ -4,7 +4,6 @@ const url = "http://localhost:3000/tours";
 
 const ProductDisplay = () => {
   const [tour, setTour] = useState([]);
-  // console.log(tour);
   const [filterTour, setFilterTour] = useState("all");
   useEffect(() => {
     // Other Approach
@@ -27,8 +26,6 @@ const ProductDisplay = () => {
   const handleFilter = (tourCategory) => {
     setFilterTour(tourCategory);
   };
-  // console.log(filterTour);
-
   const filteredTours =
     filterTour === "all"
       ? tour

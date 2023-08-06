@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const Filter = ({ handleFilter }) => {
   const filterTour = [
     { id: "all", name: "All" },
@@ -16,11 +14,7 @@ const Filter = ({ handleFilter }) => {
       name: "Somewhere center",
     },
   ];
-  // tour.filter((tours) => {
-  //   const category = tours.category;
-  //   console.log(category);
-  // });
-  // console.log(handleFilter);
+
   return (
     <div
       className="btn-container btn-group my-5"
@@ -40,34 +34,6 @@ const Filter = ({ handleFilter }) => {
           </button>
         );
       })}
-      {/* <button
-        type="button"
-        className="filter-btn btn btn-primary"
-        data-id="all"
-      >
-        All
-      </button>
-      <button
-        type="button"
-        className="filter-btn btn btn-primary"
-        data-id="somewhere near"
-      >
-        Somewhere Near
-      </button>
-      <button
-        type="button"
-        className="filter-btn btn btn-primary"
-        data-id="somewhere far"
-      >
-        Somewhere Far
-      </button>
-      <button
-        type="button"
-        className="filter-btn btn btn-primary"
-        data-id="somewhere center"
-      >
-        Somewhere center
-      </button> */}
     </div>
   );
 };
